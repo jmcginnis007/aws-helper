@@ -2,6 +2,8 @@
 
 Java example of how to sign an AWS GET request using Signature Version 4 signing process.
 
+Based on Python example shown here:  https://docs.aws.amazon.com/general/latest/gr/sigv4-signed-request-examples.html#sig-v4-examples-get-query-string
+
 Simply fill in your access key and secret key in the application.yml file then run the "AwsHelperApplicationTests" unit test using your IDE or maven:
 
  mvn -Dtest=AwsHelperApplicationTests#testSecureUrl test
