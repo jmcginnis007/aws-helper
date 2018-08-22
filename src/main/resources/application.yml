@@ -1,0 +1,6 @@
+aws:
+  service: s3
+  region: us-west-1
+  accesskey: <ACCESS_KEY>
+  secretkey: <SECRET_KEY>
+  algorithm: AWS4-HMAC-SHA256
